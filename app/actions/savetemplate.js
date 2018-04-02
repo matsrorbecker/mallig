@@ -1,0 +1,1 @@
+module.exports = (template) => ({type: 'SAVE_TEMPLATE', template})

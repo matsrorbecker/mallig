@@ -1,0 +1,31 @@
+{
+  "name": "mallig",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cp node_modules/bootstrap/dist/css/bootstrap.css app/styles/"
+  },
+  "author": "Mats Rörbecker",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jade": "^1.11.0",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2"
+  },
+  "devDependencies": {
+    "auto-reload-brunch": "^2.7.1",
+    "babel-brunch": "^6.1.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "brunch": "^2.10.12",
+    "clean-css-brunch": "^2.10.0",
+    "jade-brunch": "^2.8.0",
+    "javascript-brunch": "^2.10.0",
+    "uglify-js-brunch": "^2.10.0"
+  }
+}

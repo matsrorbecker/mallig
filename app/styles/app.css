@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'silkscreennormal';
+    src: url('../fonts/slkscr-webfont.woff') format('woff');
+    src: url('../fonts/slkscr-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/slkscr-webfont.woff') format('woff'),
+         url('../fonts/slkscr-webfont.ttf') format('truetype'),
+         url('../fonts/slkscr-webfont.svg#silkscreennormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h4, button {
+    font-family: 'silkscreennormal' !important;
+}
+
+.editor {
+    margin-bottom: 10px;
+}
+
+button {
+    box-shadow: none !important;
+    margin-right: 5px !important;
+}

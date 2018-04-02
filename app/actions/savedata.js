@@ -1,0 +1,1 @@
+module.exports = (data) => ({type: 'SAVE_DATA', data})
